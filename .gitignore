@@ -1,0 +1,46 @@
+# =============================
+# 🔹 Node.js dependencies
+# =============================
+# Ignore node_modules in root and subfolders (like backend/)
+node_modules/
+**/node_modules/
+
+# =============================
+# 🔹 Environment files
+# =============================
+# Ignore .env in root and anywhere else (like backend/)
+.env
+**/.env
+
+# =============================
+# 🔹 System & Editor Files
+# =============================
+# Ignore VSCode settings folder
+.vscode/
+**/.vscode/
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
+
+# =============================
+# 🔹 Logs
+# =============================
+# Ignore all logs and logs folder
+logs/
+**/logs/
+*.log
+
+# =============================
+# 🔹 Build Outputs (optional)
+# =============================
+dist/
+build/
+coverage/
+
+# =============================
+# 🔹 Miscellaneous
+# =============================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
